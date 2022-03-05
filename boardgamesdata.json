@@ -1,0 +1,276 @@
+{
+  "boardgames": [
+    {
+      "tytul": "Brass",
+      "iloscGier": "3",
+      "ocena": "8",
+      "notatki": "Super euro",
+      "iloscWygranych": "2",
+      "id": 1
+    },
+    {
+      "tytul": "Terraformacja marsa",
+      "iloscGier": "21",
+      "ocena": "8",
+      "notatki": "Zostaje w kolekcji na zawsze",
+      "iloscWygranych": "10",
+      "id": 2
+    },
+    {
+      "tytul": "Lords of Waterdeep",
+      "iloscGier": "22",
+      "ocena": "8",
+      "notatki": "Zostaje",
+      "iloscWygranych": "10",
+      "id": 3
+    },
+    {
+      "tytul": "Dice Throne",
+      "iloscGier": "41",
+      "ocena": "8",
+      "notatki": "Przegrywam",
+      "iloscWygranych": "12",
+      "id": 4
+    },
+    {
+      "tytul": "Merchants of the DarkRoad",
+      "iloscGier": "2",
+      "ocena": "8",
+      "notatki": "Jest potencjał",
+      "iloscWygranych": "1",
+      "id": 5
+    },
+    {
+      "tytul": "Paladyni Zachodniego Królestwa",
+      "iloscGier": "1",
+      "ocena": "8",
+      "notatki": "Jest potencjał",
+      "iloscWygranych": "1",
+      "id": 6
+    },
+    {
+      "tytul": "Gears of War",
+      "iloscGier": "40",
+      "ocena": "7",
+      "notatki": "Naprawdę ciekaw gra taktyczna. Można mieć zatrzeżenia do SI gry ale przede wszystkim jest dużo zabawy.",
+      "iloscWygranych": "",
+      "id": 7
+    },
+    {
+      "tytul": "Dracula",
+      "iloscGier": "5",
+      "ocena": "8",
+      "notatki": "Zajebista",
+      "iloscWygranych": "1",
+      "id": 10
+    },
+    {
+      "tytul": "Defenders of the realm",
+      "iloscGier": "10",
+      "ocena": "7",
+      "notatki": "Co-op",
+      "iloscWygranych": "5",
+      "id": 11
+    },
+    {
+      "tytul": "Chaos w Starym Świecie",
+      "iloscGier": "9",
+      "ocena": "9",
+      "notatki": "Epic",
+      "iloscWygranych": "3",
+      "id": 12
+    },
+    {
+      "tytul": "Gra o tron",
+      "iloscGier": "1",
+      "ocena": "7",
+      "notatki": "Taka se ale w kolekcji zostaje bo była pierwsza",
+      "iloscWygranych": "0",
+      "id": 13
+    },
+    {
+      "tytul": "Talizman aka Magia i Miecz",
+      "iloscGier": "ponad 100",
+      "ocena": "7",
+      "notatki": "Klasyk",
+      "iloscWygranych": "nie pamiętam",
+      "id": 14
+    },
+    {
+      "tytul": "Martwa Zima",
+      "iloscGier": "4",
+      "ocena": "7",
+      "notatki": "Muszę w to pograć",
+      "iloscWygranych": "1",
+      "id": 15
+    },
+    {
+      "tytul": "Horror w Arkham 2ed",
+      "iloscGier": "20",
+      "ocena": "8",
+      "notatki": "Pierwsza duża gra",
+      "iloscWygranych": "7",
+      "id": 16
+    },
+    {
+      "tytul": "Eldritch Horror",
+      "iloscGier": "35",
+      "ocena": "10",
+      "notatki": "Najlepsza",
+      "iloscWygranych": "10",
+      "id": 17
+    },
+    {
+      "tytul": "Xenoshyft",
+      "iloscGier": "23",
+      "ocena": "7",
+      "notatki": "Deckbuilder",
+      "iloscWygranych": "5",
+      "id": 18
+    },
+    {
+      "tytul": "Zombicide: Black Plague",
+      "iloscGier": "9",
+      "ocena": "7",
+      "notatki": "Bear&Snacks",
+      "iloscWygranych": "8",
+      "id": 19
+    },
+    {
+      "tytul": "Władca Pierścieni LCG",
+      "iloscGier": "30",
+      "ocena": "7",
+      "notatki": "Zostaje z sentymentu",
+      "iloscWygranych": "20",
+      "id": 20
+    },
+    {
+      "tytul": "Star Wars Rebelion",
+      "iloscGier": "7",
+      "ocena": "9",
+      "notatki": "Klimat, klimat i jeszcze raz klimat",
+      "iloscWygranych": "3",
+      "id": 21
+    },
+    {
+      "tytul": "Wsiąść do pociągu",
+      "iloscGier": "7",
+      "ocena": "6",
+      "notatki": "Opener",
+      "iloscWygranych": "3",
+      "id": 22
+    },
+    {
+      "tytul": "Battalia",
+      "iloscGier": "5",
+      "ocena": "8",
+      "notatki": "Super ale rozkładanie to maskra",
+      "iloscWygranych": "1",
+      "id": 23
+    },
+    {
+      "tytul": "Bang!",
+      "iloscGier": "2",
+      "ocena": "7",
+      "notatki": "Imprezowa",
+      "iloscWygranych": "1",
+      "id": 24
+    },
+    {
+      "tytul": "List Miłosny",
+      "iloscGier": "ponad 100",
+      "ocena": "8",
+      "notatki": "Imprezowa",
+      "iloscWygranych": "wiele",
+      "id": 25
+    },
+    {
+      "tytul": "Stan 51 Master Set",
+      "iloscGier": "26",
+      "ocena": "8",
+      "notatki": "Budowania silnika",
+      "iloscWygranych": "15",
+      "id": 26
+    },
+    {
+      "tytul": "Command&Colors Napoleonics",
+      "iloscGier": "8",
+      "ocena": "8",
+      "notatki": "Strategia",
+      "iloscWygranych": "6",
+      "id": 27
+    },
+    {
+      "tytul": "Pięć Klanów",
+      "iloscGier": "6",
+      "ocena": "7",
+      "notatki": "Móżdżenie",
+      "iloscWygranych": "3",
+      "id": 28
+    },
+    {
+      "tytul": "Age of Conan",
+      "iloscGier": "6",
+      "ocena": "9",
+      "notatki": "Najgorsza instrukcja na świecie",
+      "iloscWygranych": "1",
+      "id": 29
+    },
+    {
+      "tytul": "Deception",
+      "iloscGier": "8",
+      "ocena": "7",
+      "notatki": "Imprezowa",
+      "iloscWygranych": "Zazwyczaj prowadzę grę",
+      "id": 30
+    },
+    {
+      "tytul": "Tyrants of the Underdark",
+      "iloscGier": "8",
+      "ocena": "9",
+      "notatki": "Strategia",
+      "iloscWygranych": "2",
+      "id": 31
+    },
+    {
+      "tytul": "Blood Rage",
+      "iloscGier": "11",
+      "ocena": "8",
+      "notatki": "Strategia",
+      "iloscWygranych": "6",
+      "id": 32
+    },
+    {
+      "tytul": "Hero Realms",
+      "iloscGier": "11",
+      "ocena": "7",
+      "notatki": "Deckbuilder",
+      "iloscWygranych": "6",
+      "id": 33
+    },
+    {
+      "tytul": "Legendary Marvel",
+      "iloscGier": "96",
+      "ocena": "8",
+      "notatki": "Deckbuilder",
+      "iloscWygranych": "więcej przegranych niż wygranych",
+      "id": 34
+    },
+    {
+      "tytul": "Orleans",
+      "iloscGier": "8",
+      "ocena": "7",
+      "notatki": "Ciekawy worker placement",
+      "iloscWygranych": "3",
+      "id": 35
+    },
+    {
+      "tytul": "test",
+      "iloscGier": "",
+      "ocena": "",
+      "notatki": "",
+      "iloscWygranych": "",
+      "id": 36
+    }
+  ]
+}
