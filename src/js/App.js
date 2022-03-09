@@ -1,24 +1,12 @@
-
 import '../css/App.css';
-import {useEffect} from "react";
+import React, {useEffect} from "react";
 import BoardGames from "./BoardGames";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
 import AddGame from "./AddGame";
-import Game from "./Game";
+import GameSearchForm from "./GameSearchForm";
 
 function App() {
-    useEffect(() => {
-        fetch('http://localhost:3000/BoardGames')
-            .then(res => res.json())
-            .then(data => {console.log("Jakub "); console.log(data)});
-    })
-
-    return  (
+    return (
         <Router>
             <div className="main">
                 <h1>PLANSZOWY SEGREGATOR</h1>
@@ -34,18 +22,8 @@ function App() {
                     </li>
                 </ul>
 
-
-
-                {/*
-          A <Switch> looks through all its children <Route>
-          elements and renders the first one whose path
-          matches the current URL. Use a <Switch> any time
-          you have multiple routes, but you want only one
-          of them to render at a time
-        */}
                 <Switch>
                     <Route exact path="/">
-
                     </Route>
                     <Route path="/colection">
                         <BoardGames/>
@@ -59,5 +37,4 @@ function App() {
     );
 }
 
-// ReactDOM.render(<App/>, document.getElementById("App"))
 export default App;

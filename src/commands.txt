@@ -1,1 +1,1 @@
-:q!:q
+json-server .\boardgamesdata.json --watch

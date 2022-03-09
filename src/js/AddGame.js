@@ -30,19 +30,14 @@ function AddGame({fetchGames, idVal}) {
                 }
                 throw new Error("Błąd!");
             })
-            .then(data => {
-                console.log(data);
+            .then(() => {
                 fetchGames();
             })
             .catch(error => console.log(error));
     }
-    // const clearForm = () => {
-    //     document.getElementById("form-add-game").reset();
-    // }
 
     return (
-
-        <form /*id="form-add-game"*/ onSubmit={saveGame}>
+        <form onSubmit={saveGame}>
             <input type="text" placeholder="tytul" value={tytul} onChange={e => setTytul(e.target.value)}/>
             <input type="text" placeholder="ilosc gier" value={iloscGier} onChange={e => setIloscGier(e.target.value)}/>
             <input type="text" placeholder="ocena" value={ocena} onChange={e => setOcena(e.target.value)}/>
@@ -50,7 +45,6 @@ function AddGame({fetchGames, idVal}) {
             <input type="text" placeholder="ilość wygranych" value={iloscWygranych} onChange={e => setIloscWygranych(e.target.value)}/>
             <button className="save" type="submit" >Dodaj</button>
         </form>
-
     );
 }
 

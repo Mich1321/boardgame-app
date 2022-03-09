@@ -1,7 +1,7 @@
 {
   "boardgames": [
     {
-      "tytul": "Brass",
+      "tytul": "Brass ",
       "iloscGier": "3",
       "ocena": "8",
       "notatki": "Super euro",
@@ -265,11 +265,11 @@
       "id": 35
     },
     {
-      "tytul": "test",
-      "iloscGier": "",
-      "ocena": "",
-      "notatki": "",
-      "iloscWygranych": "",
+      "tytul": "Vikings gone Wild",
+      "iloscGier": "1",
+      "ocena": "7",
+      "notatki": "Śmiechowa",
+      "iloscWygranych": "0",
       "id": 36
     }
   ]

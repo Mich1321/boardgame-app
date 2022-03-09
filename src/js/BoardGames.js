@@ -1,11 +1,16 @@
 import React, {useEffect, useState} from 'react';
-import AddGame from "./AddGame";
 import DATA_BASE from "./DataBaseAddress";
 import Game from "./Game";
+import GameSearchForm from "./GameSearchForm";
 
 function BoardGames() {
     const [game, setGame] = useState([]);
+    const [filtered, setFiltered] = useState([])
+
+
+
     const getGames = () => {
+        console.log('get games =======')
         fetch(DATA_BASE)
             .then(response => {
                 if (response.ok) {
@@ -15,36 +20,35 @@ function BoardGames() {
             })
             .then((data) => {
                 setGame(data);
+                setFiltered(data);
             })
             .catch(error => console.log(error));
     }
+
     useEffect(getGames, []);
+
+    const filterGames = (searchTitle) => {
+            const filteredData = game.filter(theGame => {
+            const gameTitleInUpperCase = theGame.tytul.toUpperCase();
+            const searchPhraseInUpperCase = searchTitle.toUpperCase();
+            const includesResult = gameTitleInUpperCase.includes(searchPhraseInUpperCase);
+            if (includesResult) {
+                console.log(includesResult + " " + theGame.tytul);
+            }
+            return includesResult;
+        });
+        setFiltered(filteredData);
+    }
 
     return (
         <div>
-            {/*<AddGame fetchGames={getGames}/>*/}
-            {/*<div className="lab">*/}
-            {/*<label htmlFor="checkBtn">Kolekcja </label>*/}
-            {/*</div>*/}
-            {/*<input type="checkbox" id="checkBtn"/>*/}
+            <GameSearchForm filterGames={filterGames}/>
             <ul id="colection">
-                {game.length === 0
+                {filtered.length === 0
                     ? <p>LOADING...</p>
-                    : game.map(game => (
-                        <Game game={game} key={game.id} getGames={getGames} />
-                        // <li key={game.id}>
-                        //     <h2>{game.tytul}</h2>
-                        //     <p>Ilość gier: {game.iloscGier}</p>
-                        //     <p>Ocena: {game.ocena}</p>
-                        //     <p>Notatki: {game.notatki}</p>
-                        //     <p>Ilość wygranych: {game.iloscWygranych}</p>
-                        //     <button onClick={() => removeGame(game.id)}>Usun</button>
-                        //     <button>Zmien</button>
-                        // </li>
-                    ))}
+                    : filtered.map(game => (<Game game={game} key={game.id} getGames={getGames}/>))}}
             </ul>
         </div>
-
     );
 }
 
