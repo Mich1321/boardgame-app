@@ -3,7 +3,7 @@ import React, {useEffect} from "react";
 import BoardGames from "./BoardGames";
 import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
 import AddGame from "./AddGame";
-import GameSearchForm from "./GameSearchForm";
+
 
 function App() {
     return (

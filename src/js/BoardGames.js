@@ -7,8 +7,6 @@ function BoardGames() {
     const [game, setGame] = useState([]);
     const [filtered, setFiltered] = useState([])
 
-
-
     const getGames = () => {
         console.log('get games =======')
         fetch(DATA_BASE)

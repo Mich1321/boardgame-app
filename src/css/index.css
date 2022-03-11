@@ -92,16 +92,12 @@ form button {
   display: none;
 }
 #colection {
-  display: flex;  /*display: none*/
-  justify-content: center;  /*do usunięcia*/
-  align-items: center;  /*do usunięcia*/
-  flex-wrap: wrap;      /*do usunięcia*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-/*#checkBtn:checked ~ #col {*/
-/*  display: flex;*/
-/*  justify-content: center;*/
-/*  flex-wrap: wrap;*/
-/*}*/
+
 .lab {
   display: flex;
   justify-content: center;
