@@ -25,10 +25,9 @@ function AddGame({fetchGames, idVal}) {
             }
         })
             .then(response => {
-                if(response.ok) {
-                    return response.json();
+                if (!response.ok) {
+                    throw new Error("Błąd!");
                 }
-                throw new Error("Błąd!");
             })
             .then(() => {
                 fetchGames();
@@ -42,8 +41,9 @@ function AddGame({fetchGames, idVal}) {
             <input type="text" placeholder="ilosc gier" value={iloscGier} onChange={e => setIloscGier(e.target.value)}/>
             <input type="text" placeholder="ocena" value={ocena} onChange={e => setOcena(e.target.value)}/>
             <input type="text" placeholder="notatki" value={notatki} onChange={e => setNotatki(e.target.value)}/>
-            <input type="text" placeholder="ilość wygranych" value={iloscWygranych} onChange={e => setIloscWygranych(e.target.value)}/>
-            <button className="save" type="submit" >Dodaj</button>
+            <input type="text" placeholder="ilość wygranych" value={iloscWygranych}
+                   onChange={e => setIloscWygranych(e.target.value)}/>
+            <button className="save" type="submit">Dodaj</button>
         </form>
     );
 }

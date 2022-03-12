@@ -8,7 +8,6 @@ function BoardGames() {
     const [filtered, setFiltered] = useState([])
 
     const getGames = () => {
-        console.log('get games =======')
         fetch(DATA_BASE)
             .then(response => {
                 if (response.ok) {
@@ -26,7 +25,7 @@ function BoardGames() {
     useEffect(getGames, []);
 
     const filterGames = (searchTitle) => {
-            const filteredData = game.filter(theGame => {
+        const filteredData = game.filter(theGame => {
             const gameTitleInUpperCase = theGame.tytul.toUpperCase();
             const searchPhraseInUpperCase = searchTitle.toUpperCase();
             const includesResult = gameTitleInUpperCase.includes(searchPhraseInUpperCase);
@@ -44,7 +43,7 @@ function BoardGames() {
             <ul id="colection">
                 {filtered.length === 0
                     ? <p>LOADING...</p>
-                    : filtered.map(game => (<Game game={game} key={game.id} getGames={getGames}/>))}}
+                    : filtered.map(gameData => (<Game game={gameData} key={gameData.id} getGames={getGames}/>))}}
             </ul>
         </div>
     );
