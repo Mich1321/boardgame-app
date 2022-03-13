@@ -158,3 +158,8 @@ h1 {
   color: lightgray;
   margin-left: 50px;
 }
+.load {
+  color: lightcyan;
+  font-size: 3rem;
+  text-align: center;
+}

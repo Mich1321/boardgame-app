@@ -42,7 +42,8 @@ function BoardGames() {
             <GameSearchForm filterGames={filterGames}/>
             <ul id="colection">
                 {filtered.length === 0
-                    ? <p>LOADING...</p>
+                    ? <p className="load">Krasnoludki oraz wróżki które są odpowiedzialne za działanie tej aplikacji obecnie
+                strajkują, musisz poczekać :(</p>
                     : filtered.map(gameData => (<Game game={gameData} key={gameData.id} getGames={getGames}/>))}}
             </ul>
         </div>

@@ -279,6 +279,22 @@
       "notatki": "Nowość",
       "iloscWygranych": "0",
       "id": 37
+    },
+    {
+      "tytul": "test",
+      "iloscGier": "",
+      "ocena": "",
+      "notatki": "",
+      "iloscWygranych": "",
+      "id": 38
+    },
+    {
+      "tytul": "test2",
+      "iloscGier": "",
+      "ocena": "",
+      "notatki": "",
+      "iloscWygranych": "",
+      "id": 39
     }
   ]
 }

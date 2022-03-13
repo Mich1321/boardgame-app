@@ -14,7 +14,7 @@ function Game({getGames, game}) {
             method: "DELETE"
         })
             .then(() => {
-                getGames();
+                getGames();     //refresh data
             })
             .catch(error => console.log(error))
     }
